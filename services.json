@@ -1,0 +1,46 @@
+{
+  "services": [
+    {
+      "name": "Formit.fake",
+      "url": "http://formit.fake/",
+      "headers": {
+         "x-client-id": "FORMIT-01",
+         "x-auth": "***"
+      },
+      "body": {
+        "name": "Алексей",
+        "surname": "Петров"
+      }
+    },
+    {
+      "name": "DataValidator.fake",
+      "url": "http://datavalidator.fake/",
+      "body": {
+        "id": "2253",
+        "name": "Алексей Петров",
+        "is_spam": false,
+        "utm_marks": "lala"
+      }
+    },
+    {
+      "name": "LeadSync.fake",
+      "url": "http://leadsync.fake/",
+      "body": {
+        "id": "2253",
+        "name": "Алексей Петров",
+        "is_spam": false,
+        "utm_marks": "lala"
+      }
+    },
+    {
+      "name": "BitDashboard.fake",
+      "url": "http://bitdashboard.fake/",
+      "body": {
+        "id": "2253",
+        "name": "Алексей Петров",
+        "is_spam": false,
+        "utm_marks": "lala"
+      }
+    }
+  ]
+}
